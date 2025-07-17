@@ -1,5 +1,5 @@
 # Polygon Metre
-A simple time signature vizualizer video tool with a polygon graphic. It's not the only one out there, but this one caters to me.
+A simple time signature vizualizer video script with a polygon graphic. It's not the only one out there, but this one caters to me.
 
 ## Requirements
 ```sh
@@ -22,7 +22,7 @@ Visualizations are generated from a JSON file containing relevant data (audio lo
 
 A visualization can then be generated using a simple function call:
 ```py
-import create_signature_video
+from signature_visualizer import create_signature_video
 create_signature_video("song_data.json", "output.mp4", scale=2)
 ```
 With parameters
